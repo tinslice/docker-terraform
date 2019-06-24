@@ -1,6 +1,6 @@
 FROM alpine:3.10
 
-ENV TERRAFORM_VERSION=0.11.14
+ENV TERRAFORM_VERSION=0.12.2
 
 RUN apk add --update --no-cache git curl bash openssh-client jq
 

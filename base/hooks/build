@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-BASE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )/../"
-. $BASE_DIR/.env
+BASE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )/../../"
+. ${BASE_DIR}.env
 
 echo "== building image with alpine '$ALPINE_VERSION' and terraform '$TERRAFORM_VERSION'"
 

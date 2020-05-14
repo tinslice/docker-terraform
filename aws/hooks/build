@@ -7,4 +7,4 @@ echo "== building image with alpine '$ALPINE_VERSION' and terraform '$TERRAFORM_
 
 docker build \
   --build-arg ALPINE_VERSION=$ALPINE_VERSION --build-arg TERRAFORM_VERSION=$TERRAFORM_VERSION \
-  -f $DOCKERFILE_PATH -t $IMAGE_NAME $BASE_DIR
+  -f Dockerfile -t $IMAGE_NAME $BASE_DIR

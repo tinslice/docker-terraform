@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+. ../.env
+
+docker build --build-arg ALPINE_VERSION=$ALPINE_VERSION --build-arg TERRAFORM_VERSION=$TERRAFORM_VERSION -f $DOCKERFILE_PATH -t $IMAGE_NAME .

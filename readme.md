@@ -1,9 +1,11 @@
-# Docker images for running Terraform templates on various cloud providers
+# docker-terraform
 
 [![Docker Automated build](https://img.shields.io/docker/cloud/automated/tinslice/terraform.svg?style=flat)](https://hub.docker.com/r/tinslice/terraform/builds)
 [![Docker Build Status](https://img.shields.io/docker/cloud/build/tinslice/terraform.svg?style=flat)](https://hub.docker.com/r/tinslice/terraform/builds)
 [![Docker Pulls](https://img.shields.io/docker/pulls/tinslice/terraform.svg?style=flat)](https://hub.docker.com/r/tinslice/terraform/)
 [![license](https://img.shields.io/github/license/tinslice/docker-terraform.svg)](https://github.com/tinslice/docker-terraform)
+
+Docker images for running Terraform templates on various cloud providers.
 
 Available images: 
 

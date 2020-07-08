@@ -7,11 +7,6 @@
 
 Docker images for running Terraform templates on various cloud providers.
 
-Available images: 
-
-- terraform: `0.12.25`, `0.12.24`, `0.12.2`, `0.11.14`   
-- aws-cli: `aws`, `0.12.25-aws`, `0.12.24-awscli`, `0.12.2-awscli`, `0.11.14-awscli`  
-
 ## Usage
 
 ### aws-cli examples

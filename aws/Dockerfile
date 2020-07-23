@@ -3,7 +3,7 @@ FROM alpine:${ALPINE_VERSION}
 
 ARG TERRAFORM_VERSION=0.12.2
 
-RUN apk add --update --no-cache git curl bash openssh-client jq
+RUN apk add --update --no-cache git curl bash openssh-client jq gettext
 
 ADD https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip ./
 
